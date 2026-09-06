@@ -5,10 +5,10 @@
 	"author": "Marc Mariné <shenobi@gmail.com>",
 	"scripts": {
 		"dev": "bun --hot server.tsx",
-		"dev:client": "bun run --filter swisseph-client dev",
-		"dev:all": "bun run --parallel dev dev:client",
-		"build:client": "bun run --filter swisseph-client build",
-		"start:client": "bun run build:client && bun run --filter swisseph-client start"
+		"dev:browser": "bun run --filter swisseph-browser dev",
+		"dev:all": "bun run --parallel dev dev:browser",
+		"build:browser": "bun run --filter swisseph-browser build",
+		"start:browser": "bun run build:browser && bun run --filter swisseph-browser start"
 	},
 	"dependencies": {
 		"@swisseph/node": "^1.0.0",
@@ -23,6 +23,6 @@
 	},
 	"private": true,
 	"workspaces": [
-		"client"
+		"browser"
 	]
 }

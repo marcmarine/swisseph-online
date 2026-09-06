@@ -7,5 +7,5 @@
 		"skipLibCheck": true,
 		"types": ["bun-types"]
 	},
-	"exclude": ["client"]
+	"exclude": ["browser"]
 }

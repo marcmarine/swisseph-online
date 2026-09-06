@@ -1,5 +1,5 @@
 {
-	"name": "swisseph-client",
+	"name": "swisseph-browser",
 	"module": "index.ts",
 	"type": "module",
 	"private": true,

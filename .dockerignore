@@ -14,4 +14,4 @@ helm-charts
 .editorconfig
 .idea
 coverage*
-client
+browser
